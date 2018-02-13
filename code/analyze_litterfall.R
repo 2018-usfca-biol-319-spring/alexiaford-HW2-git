@@ -40,7 +40,6 @@ tree_data <- subset(litter_data,
 tree_leaves_data <- subset(tree_data,
                            functionalGroup == "Leaves")
 
-#git
 # make a scatterplot of leaves mass by date
 pdf("output/TREE_leaves_mass_over_time_scatterplot.pdf")   #this u do after plot
 plot(x = as.POSIXct(tree_leaves_data$collectDate),
